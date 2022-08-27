@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Silkscreen">
+    <script src="https://kit.fontawesome.com/816c81a21b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <i class="fa-solid fa-paw"><h1> DOGGO B</h1></i>
+        <div class="logo">
+            <img src="https://www.4shared.com/img/9DuOoLAviq/s25/182afa1b638/Untitled-1" alt="logo" loading="lazy" id="header-img" />
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#home">HOME</a></li>
+                <li><a class="nav-link" href="#services">SERVICES</a></li>
+                <li><a class="nav-link" href="#book">BOOK</a></li>
+            </ul>            
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="vid">
+                <iframe id="video"
+                width="660" height="415" src="https://www.youtube.com/embed/xZlJNb1U7Zo" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
+            <h2 id="whatis">WHAT IS DOGGO B?</h2>
+            <p>ㅤㅤDoggo B is a vet that took place at the United States of America. it was build in late 1980's by the son of John McDouche, Jack McDouche. 
+                legend said, that john loves animal so much he gave all his food to a dog when he himself is starving to death. because of that touching amazing story, he build this vet 
+            so another John never ever have to be born ever again</p>
+        </section>
+        <section id="services">
+            <div class="serv" id="1st">
+                <div class="level">PEASANT</div>
+                <h2 id="price">$30</h2>
+                <ol>
+                    <li>Vaccines</li>
+                    <li>Shower</li>
+                    <li>Massage</li>
+                    <li>ㅤ</li>
+                </ol>
+                <button class="btn">SELECT</button>
+            </div>
+            <div class="serv" id="2nd">
+                <div class="level">PRINCE</div>
+                <h2 id="price">$50</h2>
+                <ol>
+                    <li>Vaccines</li>
+                    <li>Shower</li>
+                    <li>Massage</li>
+                    <li>Special Treatment</li>
+                    <button class="btn">SELECT</button>
+                </ol>
+            </div>
+            <div class="serv" id="3rd">
+                <div class="level">KING</div>
+                <h2 id="price">$70</h2>
+                <ol>
+                    <li>Vaccines</li>
+                    <li>Shower</li>
+                    <li>Massage</li>
+                    <li>Super Special Treatment</li>
+                    <button class="btn">SELECT</button>
+                </ol>
+            </div>
+        </section>
+        <section id="book">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <fieldset>
+                    <label>Name <input class="inp" type="text" name="name" placeholder="e.g John" required></label>
+                    <label>E-mail <input class="inp" id="email" type="email" name="email" placeholder="Enter your active e-mail" required></label>
+                    <label>Plans <input class="inp" type="text" name="name" placeholder="King" required></label>
+                </fieldset>
+                <input id="submit" type="submit" value="Book"/>
+            </form>
+    </main>
+</body>
+</html>
